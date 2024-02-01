@@ -4,7 +4,7 @@ public class temp{
         String s;
 
         Scanner input = new Scanner(System.in);
-        System.out.println("What do you suspect might be a palindrome? ");s=input.nextLine();
+        System.out.println("What string do you suspect might be a palindrome? ");s=input.nextLine();
 
         StringBuilder rev_s = new StringBuilder(s).reverse();
 
